@@ -1,6 +1,6 @@
 ## CSV File Uploader Assignment
 
-Laravel application for uploading CSV files with background processing, as refer to the requirement:
+This is Laravel application for uploading CSV files with background processing, as refer to the requirement:
 
 - CSV file upload with drag & drop or selector
 - Background processing with Laravel Queues + Redis
@@ -20,7 +20,7 @@ Laravel application for uploading CSV files with background processing, as refer
 
 ### Platform Compatibility Note
 **Horizon** was recommended but could not be implemented due to platform constraints.
-This project was developed on a Windows (Not compatible with Windows environment)
+This project was developed on a Windows (Horizon not compatible with Windows environment)
 
 ## Installation
 
