@@ -30,6 +30,7 @@ This project was developed on a Windows (Horizon not compatible with Windows env
 4. Database: `php artisan migrate`
 5. Queue: Start Redis server and run `php artisan queue:work`
 6. Serve: `php artisan serve`
+7. Database file will be created automatically at `database/database.sqlite`
 
 ## API Endpoints
 
