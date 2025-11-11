@@ -22,7 +22,7 @@ This is Laravel application for uploading CSV files with background processing, 
 **Horizon** was recommended but could not be implemented due to platform constraints.
 This project was developed on a Windows (Horizon not compatible with Windows environment)
 
-## Installation
+## Installation (Step-By-Step)
 
 1. Clone repository: `git clone https://github.com/nfarhana224/csv-uploader.git`
 2. Install dependencies: `composer install`
@@ -30,7 +30,6 @@ This project was developed on a Windows (Horizon not compatible with Windows env
 4. Database: `php artisan migrate`
 5. Queue: Start Redis server and run `php artisan queue:work`
 6. Serve: `php artisan serve`
-7. Database file will be created automatically at `database/database.sqlite`
 
 ## API Endpoints
 
