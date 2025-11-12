@@ -35,8 +35,10 @@ cd C:\
 ### Clone repository:
 git clone https://github.com/nfarhana224/csv-uploader.git
 
-### Install dependencies:
+### Set to location folder:
 cd csv-uploader
+
+### Install dependencies:
 composer install
 
 ### Environment setup (Copy `.env.example` to `.env`):
