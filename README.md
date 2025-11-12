@@ -24,12 +24,32 @@ This project was developed on a Windows (Horizon not compatible with Windows env
 
 ## Installation (Step-By-Step)
 
-1. Clone repository: `git clone https://github.com/nfarhana224/csv-uploader.git`
-2. Install dependencies: `composer install`
-3. Environment setup: `cp .env.example .env` and `php artisan key:generate`
-4. Database: `php artisan migrate`
-5. Queue: Start Redis server and run `php artisan queue:work`
-6. Serve: `php artisan serve`
+Using PowerShell to start the installation setup
+
+### Set path location of folder:
+cd C:\
+
+### Clone repository:
+git clone https://github.com/nfarhana224/csv-uploader.git
+
+### Install dependencies:
+cd csv-uploader
+composer install
+
+### Environment setup (Copy `.env.example` to `.env`):
+copy .env.example .env
+
+### Generate application key:
+php artisan key:generate
+
+### Database setup:
+php artisan migrate
+
+###  Queue Setup with Redis at Terminal 1:
+php artisan queue:work
+
+### Start Laravel server at Terminal 2:
+php artisan serve
 
 ## API Endpoints
 
