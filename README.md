@@ -11,7 +11,9 @@ This is Laravel application for uploading CSV files with background processing, 
 - History in the list table with status tracking
 - API endpoints with Transformers
 
+
 ## Technical Implementation
+
 
 ### Background Processing
 - Implemented using Laravel Queues with Redis driver
@@ -21,6 +23,7 @@ This is Laravel application for uploading CSV files with background processing, 
 ### Platform Compatibility Note
 **Horizon** was recommended but could not be implemented due to platform constraints.
 This project was developed on a Windows (Horizon not compatible with Windows environment)
+
 
 ## Installation (Step-By-Step)
 
@@ -51,10 +54,12 @@ php artisan queue:work
 ### Start Laravel server at Terminal 2:
 php artisan serve
 
+
 ## API Endpoints
 
 - `GET /api/uploads` - List all uploads (with transformers)
 - `GET /api/uploads/{id}` - Get specific upload details
+
 
 ## Usage
 
@@ -62,6 +67,7 @@ php artisan serve
 2. Upload CSV file via drag & drop or file selector
 3. View real-time processing status in the history table
 4. Receive browser notifications when processing completes
+
 
 ## Development Notes
 
