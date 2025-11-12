@@ -1,4 +1,4 @@
-## CSV File Uploader Assignment
+## 1. CSV File Uploader Assignment
 
 This is Laravel application for uploading CSV files with background processing, as refer to the requirement:
 
@@ -12,7 +12,7 @@ This is Laravel application for uploading CSV files with background processing, 
 - API endpoints with Transformers
 
 
-## Technical Implementation
+## 2. Technical Implementation
 
 
 ### Background Processing
@@ -25,7 +25,7 @@ This is Laravel application for uploading CSV files with background processing, 
 This project was developed on a Windows (Horizon not compatible with Windows environment)
 
 
-## Installation (Step-By-Step)
+## 3. Installation (Step-By-Step)
 
 Using PowerShell to start the installation setup
 
@@ -55,13 +55,13 @@ php artisan queue:work
 php artisan serve
 
 
-## API Endpoints
+## 4. API Endpoints
 
 - `GET /api/uploads` - List all uploads (with transformers)
 - `GET /api/uploads/{id}` - Get specific upload details
 
 
-## Usage
+## 5. Usage
 
 1. Access the application at `http://localhost:8000`
 2. Upload CSV file via drag & drop or file selector
@@ -69,7 +69,7 @@ php artisan serve
 4. Receive browser notifications when processing completes
 
 
-## Development Notes
+## 6. Development Notes
 
 - **Polling** chosen over WebSockets as per requirement flexibility
 - **Redis** used for queue driver as specified
