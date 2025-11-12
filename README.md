@@ -51,7 +51,7 @@ php artisan key:generate
 php artisan migrate
 
 ###  - Queue Setup with Redis at Terminal 1:
-php artisan queue:work
+php artisan queue:work --timeout=1200
 
 ### - Start Laravel server at Terminal 2:
 php artisan serve
