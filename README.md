@@ -29,31 +29,31 @@ This project was developed on a Windows (Horizon not compatible with Windows env
 
 Using Windows PowerShell to start the installation setup
 
-### Set path location of original folder:
+### - Set path location of original folder:
 cd C:\
 
-### Clone repository:
+### - Clone repository:
 git clone https://github.com/nfarhana224/csv-uploader.git
 
-### Set path location of the project:
+### - Set path location of the project:
 cd csv-uploader
 
-### Install dependencies:
+### - Install dependencies:
 composer install
 
-### Environment setup (Copy `.env.example` to `.env`):
+### - Environment setup (Copy `.env.example` to `.env`):
 copy .env.example .env
 
-### Generate application key:
+### - Generate application key:
 php artisan key:generate
 
 ### Database setup:
 php artisan migrate
 
-###  Queue Setup with Redis at Terminal 1:
+###  - Queue Setup with Redis at Terminal 1:
 php artisan queue:work
 
-### Start Laravel server at Terminal 2:
+### - Start Laravel server at Terminal 2:
 php artisan serve
 
 
