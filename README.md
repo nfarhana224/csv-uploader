@@ -47,7 +47,7 @@ copy .env.example .env
 ### - Generate application key:
 php artisan key:generate
 
-### Database setup:
+### Database setup (type in "yes"):
 php artisan migrate
 
 ###  - Queue Setup with Redis at Terminal 1:
