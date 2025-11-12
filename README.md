@@ -27,7 +27,7 @@ This project was developed on a Windows (Horizon not compatible with Windows env
 
 ## 3. Installation (Step-By-Step)
 
-Using PowerShell to start the installation setup
+Using Windows PowerShell to start the installation setup
 
 ### Set path location of folder:
 cd C:\
