@@ -29,13 +29,13 @@ This project was developed on a Windows (Horizon not compatible with Windows env
 
 Using Windows PowerShell to start the installation setup
 
-### Set path location of folder:
+### Set path location of original folder:
 cd C:\
 
 ### Clone repository:
 git clone https://github.com/nfarhana224/csv-uploader.git
 
-### Set to location folder:
+### Set path location of the project:
 cd csv-uploader
 
 ### Install dependencies:
